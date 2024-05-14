@@ -1,0 +1,16 @@
+# Database related configuration
+server.port=8084
+
+# Database related configuration 
+spring.datasource.url = jdbc:postgresql://localhost:5432/OrderManagerDatabase
+spring.datasource.username = postgres
+spring.datasource.password = root
+spring.datasource.driver-class-name= org.postgresql.Driver
+
+#HIbernate Related Configuration
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show_sql = true
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
+
+

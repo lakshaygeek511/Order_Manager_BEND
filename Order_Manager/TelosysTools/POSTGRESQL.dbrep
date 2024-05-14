@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Telosys Database Repository --><root>
+    <tableList databaseId="0" databaseName="POSTGRESQL" databaseProductName="PostgreSQL" generation="2023-06-14 19:23:04">
+        <table catalog="" databaseComment="" databaseType="TABLE" javaBean="UserMaster" name="user_master" schema="public">
+            <column dbComment="" dbDefaultValue="" dbName="fullName" dbNotNull="false" dbPosition="1" dbSize="2147483647" dbTypeName="text" inputType="text" javaName="fullname" javaType="java.lang.String" jdbcTypeCode="12" label="Fullname" maxLength="2147483647" notNull="false" selected="false"/>
+            <column dbComment="" dbDefaultValue="" dbName="phoneNo" dbNotNull="false" dbPosition="2" dbSize="10" dbTypeName="int4" inputType="number" javaName="phoneno" javaType="java.lang.Integer" jdbcTypeCode="4" label="Phoneno" notNull="false" selected="false"/>
+            <column dbComment="" dbDefaultValue="" dbName="ein" dbNotNull="true" dbPosition="3" dbPrimaryKey="true" dbSize="2147483647" dbTypeName="text" inputType="text" javaName="ein" javaType="java.lang.String" jdbcTypeCode="12" label="Ein" maxLength="2147483647" notEmpty="true" notNull="true" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="password" dbNotNull="false" dbPosition="4" dbSize="2147483647" dbTypeName="text" inputType="text" javaName="password" javaType="java.lang.String" jdbcTypeCode="12" label="Password" maxLength="2147483647" notNull="false" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="userType" dbNotNull="false" dbPosition="5" dbSize="10" dbTypeName="int4" inputType="number" javaName="usertype" javaType="java.lang.Integer" jdbcTypeCode="4" label="Usertype" notNull="false" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="practiceType" dbNotNull="false" dbPosition="6" dbSize="10" dbTypeName="int4" inputType="number" javaName="practicetype" javaType="java.lang.Integer" jdbcTypeCode="4" label="Practicetype" notNull="false" selected="false"/>
+        </table>
+    </tableList>
+</root>
